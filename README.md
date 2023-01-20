@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-Демо на github Pages https://github.com/SergeyKorotkov91.github.io/russian-travel/
+Демо на github Pages https://SergeyKorotkov91.github.io/russian-travel/
 
 ### Описание проекта
 

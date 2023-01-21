@@ -1,25 +1,30 @@
 .intro {
     font-family: 'Inter', Arial, sans-serif;
-    padding: 92px 0;
+    padding: 92px 0 92px 0;
     max-width: 984px;
     margin: 0 auto;
+    color: #fff;
 }
   
-  @media (max-width: 1024px) {
-    .intro {
-        padding: 92px 48px 92px 48px;
-        margin: 0;
-    }
+@media screen and (min-width: 1024px) and (max-width: 1270px) {
+  .intro {
+    padding-top: 98px;
+    max-width: 928px;
+  }
 }
-  
-  @media (max-width: 768px) {
-    .intro {
-        padding: 88px 0;
-    }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    padding-bottom: 86px;
+    padding-top: 88px;
+    max-width: 720px;
+  }
 }
-  
-  @media (max-width: 480px) {
-    .intro {
-        padding: 64px 0;
-    }
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding-bottom: 65px;
+    padding-top: 64px;
+    max-width: calc(100vw - 32px);
+  }
 }

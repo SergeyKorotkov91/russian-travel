@@ -13,12 +13,12 @@
     opacity: 0.8;
   }
   
-  .header__lang-switch:last-of-type {
+  .header__lang-link:last-of-type {
     margin-right: 0;
   }
   
   @media screen and (max-width: 767px) {
-    .header__lang-switch {
+    .header__lang-link {
       font-size: 18px;
     }
   }
